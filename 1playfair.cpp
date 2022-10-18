@@ -102,8 +102,7 @@ string encrypt(string message)
 		{
 			ctext += mat[x1][y2];
 			ctext += mat[x2][y1];
-			// ctext.append(1, mat[ x1 ][ y2 ]);
-			// ctext.append(1, mat[ x2 ][ y1 ]);
+			
 		}
 	}
 	return ctext;
